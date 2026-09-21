@@ -1,0 +1,12 @@
+backend/.env
+build/
+.dart_tool/
+.DS_Store
+.idea/
+*.iml
+landing/node_modules
+.packages
+.pub/
+.pub-cache
+Thumbs.db
+.vscode/
