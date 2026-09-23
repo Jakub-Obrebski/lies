@@ -6,11 +6,35 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>LIÊSKORD | Nasza ostoja w sieci</title>
+
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <p data-i18n="test"></p>
-        <p>raw test always in English</p>
-
+        <header>
+            <div id="header-ll">
+                <p>LOGO GOES HERE</p>
+            </div>
+            <div id="header-r">
+                <div id="header-rl">
+                    <!-- download page      --> <a href="#" data-i18n="header.link.download"></a>
+                    <!-- features page      --> <a href="#" data-i18n="header.link.features"></a>
+                    <!-- privacy            --> <a href="#" data-i18n="header.link.privacy"></a>
+                    <!-- blog               --> <a href="#" data-i18n="header.link.blog"></a>
+                    <!-- documentation page --> <a href="#" data-i18n="header.link.docs"></a>
+                    <!-- contact support    --> <a href="#" data-i18n="header.link.support"></a>
+                    <!-- about lieskord     --> <a href="#" data-i18n="header.link.about"></a>
+                </div>
+                <div id="header-rr">
+                    <a href="#" data-i18n="generic.login_page"></a> <!-- sign up / log in -->
+                    <button id="language-switcher" type="button" aria-label="Language switcher" aria-expanded="false">
+                        <span class="material-icons" aria-hidden="true">language</span>
+                    </button>
+                    <button id="theme-switcher" type="button" aria-label="Theme switcher" aria-expanded="false">
+                        <span class="material-icons" aria-hidden="true">dark_mode</span>
+                    </button>
+                </div>
+            </div>
+        </header>
         <script type="module" src="./scripts/main.js"></script>
     </body>
 </html>

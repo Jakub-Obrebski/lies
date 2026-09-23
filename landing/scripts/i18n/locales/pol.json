@@ -1,3 +1,10 @@
 {
-  "test": "Test (język polski)"
+  "generic.login_page": "Zaloguj się",
+  "header.link.download": "Pobierz Liêskorda",
+  "header.link.features": "Funkcje",
+  "header.link.privacy": "Prywatność",
+  "header.link.blog": "Blog",
+  "header.link.docs": "Dokumentacja",
+  "header.link.support": "Kontakt",
+  "header.link.about": "O Liêskordzie"
 }

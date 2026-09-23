@@ -1,3 +1,10 @@
 {
-  "test": "Тест (русский язык)"
+  "generic.login_page": "Sign up / Log in",
+  "header.link.download": "Download Liêskord",
+  "header.link.features": "Features",
+  "header.link.privacy": "Privacy",
+  "header.link.blog": "Blog",
+  "header.link.docs": "Docs",
+  "header.link.support": "Contact",
+  "header.link.about": "About"
 }
