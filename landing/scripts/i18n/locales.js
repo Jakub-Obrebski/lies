@@ -5,5 +5,5 @@ export const locales = {
 	ukr: "Українська",
 	rus: "Русский",
 	lit: "Lietuvių",
-	pdl: "Po svojomu"
+	pdl: "Pudlaśka"
 };

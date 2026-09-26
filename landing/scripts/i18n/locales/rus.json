@@ -1,10 +1,12 @@
 {
-  "generic.login_page": "Sign up / Log in",
-  "header.link.download": "Download Liêskord",
-  "header.link.features": "Features",
-  "header.link.privacy": "Privacy",
-  "header.link.blog": "Blog",
-  "header.link.docs": "Docs",
-  "header.link.support": "Contact",
-  "header.link.about": "About"
+  "page.index.title": "LIÊSKORD | Our place on the Web",
+  "generic.app_name": "LIÊSKORD",
+  "generic.login_page": "Войти",
+  "header.link.download": "Скачать Лескорд",
+  "header.link.features": "Возможности",
+  "header.link.privacy": "Конфиденциальность",
+  "header.link.blog": "Блог",
+  "header.link.docs": "Документация",
+  "header.link.support": "Контакты",
+  "header.link.about": "О Лескорде"
 }

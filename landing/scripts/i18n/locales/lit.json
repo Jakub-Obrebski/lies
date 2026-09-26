@@ -1,10 +1,12 @@
 {
-  "generic.login_page": "Sign up / Log in",
-  "header.link.download": "Download Liêskord",
-  "header.link.features": "Features",
-  "header.link.privacy": "Privacy",
-  "header.link.blog": "Blog",
-  "header.link.docs": "Docs",
-  "header.link.support": "Contact",
-  "header.link.about": "About"
+  "page.index.title": "LIĖSKORD | Mūsų internetinė tvirtovė",
+  "generic.app_name": "LIÊSKORD",
+  "generic.login_page": "Prisijungti",
+  "header.link.download": "Atsisiųsti „Liėskord“",
+  "header.link.features": "Funkcijos",
+  "header.link.privacy": "Privatumas",
+  "header.link.blog": "Tinklaraštis",
+  "header.link.docs": "Dokumentacija",
+  "header.link.support": "Kontaktai",
+  "header.link.about": "Apie"
 }

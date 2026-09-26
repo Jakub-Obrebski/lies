@@ -1,10 +1,12 @@
 {
-  "generic.login_page": "Sign up / Log in",
-  "header.link.download": "Download Liêskord",
-  "header.link.features": "Features",
-  "header.link.privacy": "Privacy",
+  "page.index.title": "LIÊSKORD | Our place on the Web",
+  "generic.app_name": "LIÊSKORD",
+  "generic.login_page": "Zalogovátisie",
+  "header.link.download": "Stiahnúti Liêskord",
+  "header.link.features": "Fúnkcije",
+  "header.link.privacy": "Pryvátnosť",
   "header.link.blog": "Blog",
-  "header.link.docs": "Docs",
-  "header.link.support": "Contact",
-  "header.link.about": "About"
+  "header.link.docs": "Dokumentácija",
+  "header.link.support": "Pomošč",
+  "header.link.about": "Pro programu"
 }

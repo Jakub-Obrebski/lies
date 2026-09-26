@@ -32,7 +32,7 @@ function DetectLang()
 export async function LoadLang(lang)
 {
 	if (!SupportedLangs.includes(lang)) lang = DefaultLang;
-	const response = await fetch(`.scripts/i18n/locales/${lang}.json`);
+	const response = await fetch(`./scripts/i18n/locales/${lang}.json`);
 	if (!response.ok) throw new Error(`Failed to load language: ${lang}`);
 
 	translations = await response.json();

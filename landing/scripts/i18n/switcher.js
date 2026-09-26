@@ -1,7 +1,7 @@
 import { locales } from "./locales.js";
 import { GetCurrentLang, LoadLang } from "./i18n.js";
 
-export function InitLanguageSwitcher()
+export function InitLangSwitcher()
 {
     const button = document.getElementById("language-switcher");
     if (!button) return;
