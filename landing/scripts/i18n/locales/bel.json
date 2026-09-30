@@ -1,12 +1,13 @@
 {
-  "page.index.title": "LIÊSKORD | Our place on the Web",
-  "generic.app_name": "LIÊSKORD",
   "generic.login_page": "Увайсьці",
+  "header.link.about": "Пра Liêskord",
+  "header.link.blog": "Блог",
+  "header.link.docs": "Дакумэнтацыя",
   "header.link.download": "Спампаваць Liêskord",
   "header.link.features": "Магчымасьці",
   "header.link.privacy": "Прыватнасьць",
-  "header.link.blog": "Блог",
-  "header.link.docs": "Дакумэнтацыя",
   "header.link.support": "Кантакты",
-  "header.link.about": "Пра Liêskord"
+  "hero.app_name": "LIÊSKORD",
+  "hero.slogan": "Наша апора ў сеціве",
+  "page.index.title": "LIÊSKORD | Наша апора ў сеціве"
 }

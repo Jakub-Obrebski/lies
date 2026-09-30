@@ -1,7 +1,35 @@
 @font-face {
     font-family: 'Material Symbols Rounded';
-    src: url('../assets/fonts/material_symbols/material_symbols_rounded.ttf') format('truetype');
+    src: url('../assets/fonts/material_symbols_rounded.ttf') format('truetype');
     font-weight: 100 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: url("../assets/fonts/Onest-VariableFont_wght.ttf") format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../assets/fonts/Rubik-VariableFont_wght.ttf") format('truetype');
+    font-weight: 300 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../assets/fonts/Rubik-Italic-VariableFont_wght.ttf") format('truetype');
+    font-weight: 300 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url("../assets/fonts/Unbounded-VariableFont_wght.ttf") format('truetype');
+    font-weight: 200 900;
     font-style: normal;
 }
 

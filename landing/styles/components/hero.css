@@ -1,0 +1,25 @@
+#hero {
+    font-family: 'Unbounded', sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/hero-v3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero h1 {
+    margin-bottom: 0;
+    padding: 2ch 0 0 0;
+    font-size: 10pc;
+    font-weight: 900;
+    color: white;
+}
+
+#hero h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 4pc;
+    color: white;
+}

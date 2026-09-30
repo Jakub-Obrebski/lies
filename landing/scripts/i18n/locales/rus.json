@@ -1,12 +1,13 @@
 {
-  "page.index.title": "LIÊSKORD | Our place on the Web",
-  "generic.app_name": "LIÊSKORD",
   "generic.login_page": "Войти",
+  "header.link.about": "О Лескорде",
+  "header.link.blog": "Блог",
+  "header.link.docs": "Документация",
   "header.link.download": "Скачать Лескорд",
   "header.link.features": "Возможности",
   "header.link.privacy": "Конфиденциальность",
-  "header.link.blog": "Блог",
-  "header.link.docs": "Документация",
   "header.link.support": "Контакты",
-  "header.link.about": "О Лескорде"
+  "hero.app_name": "LIÊSKORD",
+  "hero.slogan": "Наш оплот в сети",
+  "page.index.title": "LIÊSKORD | Наш оплот в сети"
 }

@@ -1,0 +1,47 @@
+header {
+    padding: 0.5pc 1pc 0.5pc 1pc;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #04802b;
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+    /*border-bottom: 1px solid var(--accent-1);*/
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+#header-l a {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 900;
+    user-select: none;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    line-height: inherit;
+}
+
+nav, #nav-l, #nav-r {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav-r * {
+    align-items: center;
+}
+
+#nav-r button {
+    background: none;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    padding: 5px;
+    line-height: 1ch;
+}
+
+#nav-r button:hover {
+    background: var(--accent-1);
+}

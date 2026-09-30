@@ -1,12 +1,13 @@
 {
-  "page.index.title": "LIĖSKORD | Mūsų internetinė tvirtovė",
-  "generic.app_name": "LIÊSKORD",
   "generic.login_page": "Prisijungti",
+  "header.link.about": "Apie",
+  "header.link.blog": "Tinklaraštis",
+  "header.link.docs": "Dokumentacija",
   "header.link.download": "Atsisiųsti „Liėskord“",
   "header.link.features": "Funkcijos",
   "header.link.privacy": "Privatumas",
-  "header.link.blog": "Tinklaraštis",
-  "header.link.docs": "Dokumentacija",
   "header.link.support": "Kontaktai",
-  "header.link.about": "Apie"
+  "hero.app_name": "LIĖSKORD",
+  "hero.slogan": "Mūsų internetinė tvirtovė",
+  "page.index.title": "LIĖSKORD | Mūsų internetinė tvirtovė"
 }

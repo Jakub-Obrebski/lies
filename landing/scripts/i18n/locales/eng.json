@@ -1,12 +1,13 @@
 {
-  "page.index.title": "LIÊSKORD | Our place on the Web",
   "generic.login_page": "Sign in",
-  "generic.app_name": "LIÊSKORD",
+  "header.link.about": "About",
+  "header.link.blog": "Blog",
+  "header.link.docs": "Docs",
   "header.link.download": "Download Liêskord",
   "header.link.features": "Features",
   "header.link.privacy": "Privacy",
-  "header.link.blog": "Blog",
-  "header.link.docs": "Docs",
   "header.link.support": "Contact",
-  "header.link.about": "About"
+  "hero.app_name": "LIÊSKORD",
+  "hero.slogan": "Our place on the Web",
+  "page.index.title": "LIÊSKORD | Our place on the Web"
 }
