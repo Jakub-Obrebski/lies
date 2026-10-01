@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.lieskord" "\0"
-            VALUE "FileDescription", "lieskord" "\0"
+            VALUE "CompanyName", "com.lies" "\0"
+            VALUE "FileDescription", "lies" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "lieskord" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 com.lieskord. All rights reserved." "\0"
-            VALUE "OriginalFilename", "lieskord.exe" "\0"
-            VALUE "ProductName", "lieskord" "\0"
+            VALUE "InternalName", "lies" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.lies. All rights reserved." "\0"
+            VALUE "OriginalFilename", "lies.exe" "\0"
+            VALUE "ProductName", "lies" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

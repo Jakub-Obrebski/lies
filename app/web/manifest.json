@@ -1,6 +1,6 @@
 {
-    "name": "lieskord",
-    "short_name": "lieskord",
+    "name": "lies",
+    "short_name": "lies",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

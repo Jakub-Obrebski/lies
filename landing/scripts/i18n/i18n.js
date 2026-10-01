@@ -8,7 +8,7 @@ export const SupportedLangs = [
 	"ukr"
 ];
 const DefaultLang = "pol";
-const StorageKey = "lieskord.lang";
+const StorageKey = "lies.lang";
 
 let translations = {};
 let CurrentLang = DefaultLang;

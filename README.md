@@ -1,2 +1,2 @@
-# lieskord
-Oficjalnie repozytorium komunikatora LIÊSKORD.
+# lies
+Oficjalnie repozytorium komunikatora LIÊS.

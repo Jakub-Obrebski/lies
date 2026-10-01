@@ -1,13 +1,13 @@
 {
   "generic.login_page": "Увійти",
-  "header.link.about": "Про Liêskord",
+  "header.link.about": "Про Liês",
   "header.link.blog": "Блог",
   "header.link.docs": "Документація",
-  "header.link.download": "Завантажити Liêskord",
+  "header.link.download": "Завантажити Liês",
   "header.link.features": "Можливості",
   "header.link.privacy": "Конфіденційність",
   "header.link.support": "Контакти",
-  "hero.app_name": "LIÊSKORD",
+  "hero.app_name": "LIÊS",
   "hero.slogan": "Наш прихисток у мережі",
-  "page.index.title": "LIÊSKORD | Наш прихисток у мережі"
+  "page.index.title": "LIÊS | Наш прихисток у мережі"
 }

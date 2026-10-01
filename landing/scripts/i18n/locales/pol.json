@@ -1,13 +1,13 @@
 {
   "generic.login_page": "Zaloguj się",
-  "header.link.about": "O Liêskordzie",
+  "header.link.about": "O Liês",
   "header.link.blog": "Blog",
   "header.link.docs": "Dokumentacja",
-  "header.link.download": "Pobierz Liêskorda",
+  "header.link.download": "Pobierz Liês",
   "header.link.features": "Funkcje",
   "header.link.privacy": "Prywatność",
   "header.link.support": "Kontakt",
-  "hero.app_name": "LIÊSKORD",
+  "hero.app_name": "LIÊS",
   "hero.slogan": "Nasza ostoja w sieci",
-  "page.index.title": "LIÊSKORD | Nasza ostoja w sieci"
+  "page.index.title": "LIÊS | Nasza ostoja w sieci"
 }
