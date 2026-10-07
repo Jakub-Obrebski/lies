@@ -1,0 +1,109 @@
+.page-login body, #login-main {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg, #f4f4f4);
+    background-image: url("../../assets/images/hero-v3.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#login-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: white;
+    border-radius: 16px;
+    padding: 40px 48px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+    min-width: 340px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#login-card h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 900;
+    color: var(--accent-2);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.login-field label {
+    font-family: 'Onest', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.login-field input {
+    font-family: 'Onest', sans-serif;
+    font-size: 1rem;
+    padding: 10px 14px;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.login-field input:focus {
+    border-color: var(--accent-1);
+}
+
+#forgot-password {
+    font-family: 'Onest', sans-serif;
+    font-size: 0.8rem;
+    color: var(--accent-1);
+    text-decoration: none;
+    align-self: flex-end;
+    margin-top: -8px;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+}
+
+#login-submit {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    background-color: var(--accent-2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 4px;
+}
+
+#login-submit:hover {
+    background-color: var(--accent-1);
+}
+
+#login-footer {
+    font-family: 'Onest', sans-serif;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #777;
+}
+
+#login-footer a {
+    color: var(--accent-1);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+#login-footer a:hover {
+    text-decoration: underline;
+}

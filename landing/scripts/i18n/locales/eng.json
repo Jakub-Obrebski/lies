@@ -1,5 +1,5 @@
 {
-  "generic.login_page": "Sign in",
+  "generic.login_page": "Log in",
   "header.link.about": "About",
   "header.link.blog": "Blog",
   "header.link.docs": "Docs",
@@ -9,5 +9,13 @@
   "header.link.support": "Contact",
   "hero.app_name": "LIÊS",
   "hero.slogan": "Our place on the Web",
-  "page.index.title": "LIÊS | Our place on the Web"
+  "login.button.submit": "Log in",
+  "login.field.email": "E-mail",
+  "login.field.password": "Password",
+  "login.forgot_password": "Forgot password?",
+  "login.no_account": "New to Liês?",
+  "login.signup_link": "Sign up",
+  "page.index.title": "LIÊS | Our place on the Web",
+  "page.login.title": "Log in | LIÊS",
+  "page.signup.title": "Sign up | LIÊS"
 }

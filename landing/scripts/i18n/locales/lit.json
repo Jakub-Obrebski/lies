@@ -9,5 +9,13 @@
   "header.link.support": "Kontaktai",
   "hero.app_name": "LIĖS",
   "hero.slogan": "Mūsų internetinė tvirtovė",
-  "page.index.title": "LIĖS | Mūsų internetinė tvirtovė"
+  "login.button.submit": "Prisijungti",
+  "login.field.email": "E-mail",
+  "login.field.password": "Slaptažodis",
+  "login.forgot_password": "Pamiršote slaptažodį?",
+  "login.no_account": "New to Liês?",
+  "login.signup_link": "Sign up",
+  "page.index.title": "LIĖS | Mūsų internetinė tvirtovė",
+  "page.login.title": "Prisijungti | LIĖS",
+  "page.signup.title": "Sign up | LIĖS"
 }

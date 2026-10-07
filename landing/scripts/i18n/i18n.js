@@ -7,7 +7,7 @@ export const SupportedLangs = [
 	"rus",
 	"ukr"
 ];
-const DefaultLang = "pol";
+const DefaultLang = "pdl";
 const StorageKey = "lies.lang";
 
 let translations = {};

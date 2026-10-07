@@ -9,5 +9,13 @@
   "header.link.support": "Контакти",
   "hero.app_name": "LIÊS",
   "hero.slogan": "Наш прихисток у мережі",
-  "page.index.title": "LIÊS | Наш прихисток у мережі"
+  "login.button.submit": "Log in",
+  "login.field.email": "E-mail",
+  "login.field.password": "Password",
+  "login.forgot_password": "Forgot password?",
+  "login.no_account": "New to Liês?",
+  "login.signup_link": "Sign up",
+  "page.index.title": "LIÊS | Наш прихисток у мережі",
+  "page.login.title": "Увійти | LIÊS",
+  "page.signup.title": "Sign up | LIÊS"
 }

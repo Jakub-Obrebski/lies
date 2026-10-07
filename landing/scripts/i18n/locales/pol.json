@@ -9,5 +9,13 @@
   "header.link.support": "Kontakt",
   "hero.app_name": "LIÊS",
   "hero.slogan": "Nasza ostoja w sieci",
-  "page.index.title": "LIÊS | Nasza ostoja w sieci"
+  "login.button.submit": "Log in",
+  "login.field.email": "E-mail",
+  "login.field.password": "Password",
+  "login.forgot_password": "Forgot password?",
+  "login.no_account": "New to Liês?",
+  "login.signup_link": "Załóż konto",
+  "page.index.title": "LIÊS | Nasza ostoja w sieci",
+  "page.login.title": "Zaloguj się | LIÊS",
+  "page.signup.title": "Załóż konto | LIÊS"
 }

@@ -1,13 +1,21 @@
 {
-  "generic.login_page": "Zalogovátisie",
+  "generic.login_page": "Zalogovatisie",
   "header.link.about": "Pro programu",
   "header.link.blog": "Blog",
-  "header.link.docs": "Dokumentácija",
-  "header.link.download": "Stiahnúti Liês",
-  "header.link.features": "Fúnkcije",
-  "header.link.privacy": "Pryvátnosť",
+  "header.link.docs": "Dokumentacija",
+  "header.link.download": "Stiahnuti Liês",
+  "header.link.features": "Funkcije",
+  "header.link.privacy": "Pryvatnosť",
   "header.link.support": "Pomošč",
   "hero.app_name": "LIÊS",
   "hero.slogan": "Our place on the Web",
-  "page.index.title": "LIÊS | Our place on the Web"
+  "login.button.submit": "Log in",
+  "login.field.email": "E-mail",
+  "login.field.password": "Password",
+  "login.forgot_password": "Forgot password?",
+  "login.no_account": "New to Liês?",
+  "login.signup_link": "Sign up",
+  "page.index.title": "LIÊS | Our place on the Web",
+  "page.login.title": "Zalogovatisie | LIÊS",
+  "page.signup.title": "Sign up | LIÊS"
 }

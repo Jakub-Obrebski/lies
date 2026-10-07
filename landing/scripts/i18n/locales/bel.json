@@ -9,5 +9,13 @@
   "header.link.support": "Кантакты",
   "hero.app_name": "LIÊS",
   "hero.slogan": "Наша апора ў сеціве",
-  "page.index.title": "LIÊS | Наша апора ў сеціве"
+  "login.button.submit": "Log in",
+  "login.field.email": "E-mail",
+  "login.field.password": "Password",
+  "login.forgot_password": "Forgot password?",
+  "login.no_account": "New to Liês?",
+  "login.signup_link": "Sign up",
+  "page.index.title": "LIÊS | Наша апора ў сеціве",
+  "page.login.title": "Увайсьці | LIÊS",
+  "page.signup.title": "Зарэгістравацца | LIÊS"
 }
