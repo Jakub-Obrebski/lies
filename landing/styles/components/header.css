@@ -1,18 +1,19 @@
 header {
     padding: 0.5pc 1pc 0.5pc 1pc;
-    position: relative;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #04802b;
     color: white;
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Unbounded', 'Rubik', sans-serif;
     /*border-bottom: 1px solid var(--accent-1);*/
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
 }
 
 #header-l a {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Unbounded', 'Rubik', sans-serif;
     font-weight: 900;
     user-select: none;
 }
