@@ -3,6 +3,7 @@
     align-items: stretch;
     gap: 4px;
     margin-top: 1.5rem;
+    width: max-content;
 }
 
 #fast-download-link {
