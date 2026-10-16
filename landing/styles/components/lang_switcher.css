@@ -1,0 +1,37 @@
+.lang-switcher {
+    position: relative;
+}
+
+.lang-list {
+    position: absolute;
+    top: calc(100% + 16px);
+    right: 0;
+    z-index: 100;
+    background: var(--accent-4);
+    border-radius: 8px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    white-space: nowrap;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.lang-list[hidden] {
+    display: none !important;
+}
+
+.lang-option {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.lang-option:hover {
+    background: color-mix(in srgb, var(--accent-3) 50%, transparent);
+}
+
+.lang-option.is-active {
+    background: var(--accent-3);
+}

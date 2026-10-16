@@ -41,7 +41,7 @@ export function InitLangSwitcher()
 
     const open = () => {
         dropdown.hidden = false;
-        button.setAttribute("aria-expanded", "false");
+        button.setAttribute("aria-expanded", "true");
     };
 
     const close = () => {
