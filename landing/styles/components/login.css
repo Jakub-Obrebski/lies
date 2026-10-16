@@ -26,7 +26,7 @@
 #login-card h1 {
     font-family: 'Unbounded', sans-serif;
     font-weight: 900;
-    color: var(--accent-2);
+    color: var(--accent-3);
     text-align: center;
     font-size: 2rem;
     margin-bottom: 8px;
@@ -56,13 +56,13 @@
 }
 
 .login-field input:focus {
-    border-color: var(--accent-1);
+    border-color: var(--accent-2);
 }
 
 #forgot-password {
     font-family: 'Onest', sans-serif;
     font-size: 0.8rem;
-    color: var(--accent-1);
+    color: var(--accent-2);
     text-decoration: none;
     align-self: flex-end;
     margin-top: -8px;
@@ -76,7 +76,7 @@
     font-family: 'Unbounded', sans-serif;
     font-weight: 700;
     font-size: 0.95rem;
-    background-color: var(--accent-2);
+    background-color: var(--accent-3);
     color: white;
     border: none;
     border-radius: 8px;
@@ -87,7 +87,7 @@
 }
 
 #login-submit:hover {
-    background-color: var(--accent-1);
+    background-color: var(--accent-2);
 }
 
 #login-footer {
@@ -98,7 +98,7 @@
 }
 
 #login-footer a {
-    color: var(--accent-1);
+    color: var(--accent-2);
     text-decoration: none;
     font-weight: 600;
     margin-left: 4px;

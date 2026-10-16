@@ -18,7 +18,7 @@
     border-radius: 24px 0 0 24px;
     cursor: pointer;
 
-    background: var(--accent-2);
+    background: var(--accent-4);
     color: #ffffff;
     font-family: inherit;
     text-align: left;
@@ -26,8 +26,8 @@
     transition: background-color 0.15s ease;
 }
 
-#fast-download-link:hover  { background: var(--accent-3); }
-#fast-download-link:active { background: var(--accent-4); }
+#fast-download-link:hover  { background: var(--accent-5); }
+#fast-download-link:active { background: var(--accent-6); }
 
 #fast-download-link:focus-visible {
     outline: 2px solid white;
@@ -58,14 +58,14 @@
     border-radius: 0 24px 24px 0;
     cursor: pointer;
 
-    background: var(--accent-2);
+    background: var(--accent-4);
     color: #ffffff;
 
     transition: background-color 0.15s ease;
 }
 
-#download-dropdown:hover  { background: var(--accent-3); }
-#download-dropdown:active { background: var(--accent-4); }
+#download-dropdown:hover  { background: var(--accent-5); }
+#download-dropdown:active { background: var(--accent-6); }
 
 #download-dropdown:focus-visible {
     outline: 2px solid white;

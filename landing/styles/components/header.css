@@ -1,15 +1,19 @@
 header {
     padding: 0.5pc 1pc 0.5pc 1pc;
-    position: fixed;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #04802b;
+    background-color: var(--accent-4);
     color: white;
     font-family: 'Unbounded', 'Rubik', sans-serif;
-    /*border-bottom: 1px solid var(--accent-1);*/
+    /*border-bottom: 1px solid var(--accent-2);*/
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+#header-l {
+    margin-right: auto;
 }
 
 #header-l a {
@@ -24,6 +28,12 @@ header a {
     line-height: inherit;
 }
 
+#nav-l {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 nav, #nav-l, #nav-r {
     display: flex;
     align-items: center;
@@ -31,6 +41,7 @@ nav, #nav-l, #nav-r {
 }
 
 #nav-r * {
+    margin-left: auto;
     align-items: center;
 }
 
@@ -44,5 +55,5 @@ nav, #nav-l, #nav-r {
 }
 
 #nav-r button:hover {
-    background: var(--accent-1);
+    background: color-mix(in srgb, var(--accent-3) 50%, transparent);
 }

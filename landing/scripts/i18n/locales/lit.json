@@ -14,6 +14,7 @@
   "login.button.submit": "Prisijungti",
   "login.field.email": "E-mail",
   "login.field.password": "Slaptažodis",
+  "login.field.username": "Username",
   "login.forgot_password": "Pamiršote slaptažodį?",
   "login.no_account": "New to Liês?",
   "login.signup_link": "Sign up",
