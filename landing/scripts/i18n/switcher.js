@@ -1,5 +1,5 @@
 import { locales } from "./locales.js";
-import { GetCurrentLang, LoadLang } from "./i18n.js";
+import { LoadLang } from "./i18n.js";
 
 export function InitLangSwitcher()
 {
@@ -11,17 +11,27 @@ export function InitLangSwitcher()
     dropdown.setAttribute("role", "menu");
     dropdown.hidden = true;
 
-    Object.entries(locales).forEach(([code, label]) => {
+    Object.entries(locales).forEach(([code, { name, flag }]) => {
         const item = document.createElement("button");
         item.type = "button";
         item.className = "lang-option";
         item.dataset.lang = code;
         item.setAttribute("role", "menuitem");
-        item.textContent = label;
+
         item.addEventListener("click", async () => {
             await LoadLang(code);
             close();
         });
+
+        const img = document.createElement("img");
+        img.src = flag;
+        img.width = 16;
+        img.height = 12;
+        img.alt = "";
+        img.setAttribute("aria-hidden", "true");
+
+        item.appendChild(document.createTextNode(name));
+        item.appendChild(img);
         dropdown.appendChild(item);
     });
 
@@ -30,14 +40,6 @@ export function InitLangSwitcher()
     button.parentNode.insertBefore(wrapper, button);
     wrapper.appendChild(button);
     wrapper.appendChild(dropdown);
-
-    const SyncActive = () => {
-        const current = GetCurrentLang();
-        dropdown.querySelectorAll(".lang-option").forEach(el => {
-            el.classList.toggle("is-active", el.dataset.lang === current);
-            el.setAttribute("aria-current", el.dataset.lang === current ? "true" : "false");
-        });
-    };
 
     const open = () => {
         dropdown.hidden = false;

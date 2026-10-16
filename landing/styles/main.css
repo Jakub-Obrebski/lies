@@ -8,5 +8,6 @@
 @import url("./components/features.css");
 @import url("./components/footer.css");
 @import url("./components/download_button.css");
+@import url("./components/download_dropdown.css");
 @import url("responsive.css");
 @import url("./components/login.css");

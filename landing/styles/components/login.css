@@ -1,9 +1,9 @@
 .page-login body, #login-main {
-    min-height: calc(100vh - 50px);
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg, #f4f4f4);
+    background-color: #f4f4f4;
     background-image: url("../../assets/images/hero-v3.png");
     background-size: auto;
     background-position: center;
@@ -23,15 +23,6 @@
     width: 100%;
 }
 
-#login-card h1 {
-    font-family: 'Unbounded', sans-serif;
-    font-weight: 900;
-    color: var(--accent-3);
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 8px;
-}
-
 .login-field {
     display: flex;
     flex-direction: column;
@@ -42,7 +33,7 @@
     font-family: 'Onest', sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #555;
+    color: var(--accent-6);
 }
 
 .login-field input {
@@ -56,13 +47,13 @@
 }
 
 .login-field input:focus {
-    border-color: var(--accent-2);
+    border-color: var(--accent-3);
 }
 
 #forgot-password {
     font-family: 'Onest', sans-serif;
     font-size: 0.8rem;
-    color: var(--accent-2);
+    color: var(--accent-4);
     text-decoration: none;
     align-self: flex-end;
     margin-top: -8px;
@@ -76,7 +67,7 @@
     font-family: 'Unbounded', sans-serif;
     font-weight: 700;
     font-size: 0.95rem;
-    background-color: var(--accent-3);
+    background-color: var(--accent-4);
     color: white;
     border: none;
     border-radius: 8px;
@@ -87,18 +78,22 @@
 }
 
 #login-submit:hover {
-    background-color: var(--accent-2);
+    background-color: var(--accent-5);
+}
+
+#login-submit:active {
+    background-color: var(--accent-6);
 }
 
 #login-footer {
     font-family: 'Onest', sans-serif;
     font-size: 0.85rem;
     text-align: center;
-    color: #777;
+    color: grey;
 }
 
 #login-footer a {
-    color: var(--accent-2);
+    color: var(--accent-4);
     text-decoration: none;
     font-weight: 600;
     margin-left: 4px;

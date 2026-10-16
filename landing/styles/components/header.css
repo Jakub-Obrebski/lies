@@ -22,10 +22,18 @@ header {
     user-select: none;
 }
 
+#header-l, #header-l a, #header-l a:hover {
+    color: white;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
     line-height: inherit;
+}
+
+header a:hover {
+    color: #dddddd;
 }
 
 #nav-l {

@@ -3,6 +3,7 @@
 }
 
 .lang-list {
+    font-family: 'Onest', sans-serif;
     position: absolute;
     top: calc(100% + 16px);
     right: 0;
@@ -15,6 +16,7 @@
     gap: 2px;
     white-space: nowrap;
     box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    width: max-content;
 }
 
 .lang-list[hidden] {
@@ -26,6 +28,10 @@
     padding: 6px 12px;
     border-radius: 6px;
     text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
 }
 
 .lang-option:hover {

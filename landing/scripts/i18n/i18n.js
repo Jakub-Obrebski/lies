@@ -6,7 +6,6 @@ export const SupportedLangs = [
 	"pol",
 	"rus",
 	"ukr",
-	"yid"
 ];
 const DefaultLang = "pdl";
 const StorageKey = "lies.lang";

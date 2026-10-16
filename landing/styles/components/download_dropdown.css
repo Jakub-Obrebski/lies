@@ -1,0 +1,33 @@
+.download-list {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 100;
+    background: var(--accent-4);
+    border-radius: 8px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    white-space: nowrap;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.download-option, .download-more {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-align: left;
+    font-family: 'Onest', sans-serif;
+    font-size: 0.9rem;
+}
+
+.download-option:hover, .download-more:hover {
+    background: color-mix(in srgb, var(--accent-3) 50%, transparent);
+}
+
+.download-more {
+    border-top: 1px solid color-mix(in srgb, var(--accent-3) 40%, transparent);
+    margin-top: 2px;
+    padding-top: 8px;
+}
