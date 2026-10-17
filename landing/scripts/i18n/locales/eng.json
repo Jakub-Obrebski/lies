@@ -19,6 +19,9 @@
   "login.forgot_password": "Forgot password?",
   "login.no_account": "New to Liês?",
   "login.signup_link": "Sign up",
+  "page.downloads.table.install_method": "Installation method",
+  "page.downloads.table.system": "System",
+  "page.downloads.table.version": "Version/distro",
   "page.index.title": "LIÊS | Our place on the Web",
   "page.login.title": "Log in | LIÊS",
   "page.signup.title": "Sign up | LIÊS"

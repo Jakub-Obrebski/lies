@@ -65,3 +65,7 @@ nav, #nav-l, #nav-r {
 #nav-r button:hover {
     background: color-mix(in srgb, var(--accent-3) 50%, transparent);
 }
+
+#nav-l, #nav-r a {
+    font-family: 'Onest', sans-serif;
+}

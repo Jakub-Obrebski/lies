@@ -35,6 +35,42 @@
                 </div>
             </nav>
         </header>
+        <section id="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th data-i18n="page.downloads.table.system"></th>
+                        <th data-i18n="page.downloads.table.version"></th>
+                        <th data-i18n="page.downloads.table.install_method"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Windows</td>
+                        <td>10+</td>
+                        <td><a href="#" download>.msi</a></td>
+                    </tr>
+                    <tr>
+                        <td>macOS</td>
+                        <td>10.14 Mojave+</td>
+                        <td><a href="#" download>.dmg</a></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Linux</td>
+                        <td>Debian/Ubuntu</td>
+                        <td><a href="#" download>.deb</a><br><code>sudo apt install lies</code></td>
+                    </tr>
+                    <tr>
+                        <td>Fedora</td>
+                        <td><a href="#" download>.rpm</a><br><code>dnf install lies</code></td>
+                    </tr>
+                    <tr>
+                        <td>Arch</td>
+                        <td><a href="#" download>.pkg.tar.zst</a><br><code>pacman -S lies</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         <script type="module" src="scripts/main.js"></script>
     </body>
 </html>

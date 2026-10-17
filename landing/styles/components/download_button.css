@@ -75,4 +75,9 @@
 #download-dropdown .material-icons {
     font-size: 20px;
     line-height: 1;
+    transition: transform 0.15s ease;
+}
+
+#download-dropdown[aria-expanded="true"] .material-icons {
+    transform: rotate(180deg);
 }

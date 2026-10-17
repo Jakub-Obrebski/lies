@@ -8,9 +8,9 @@ export function DetectOS()
 }
 
 const downloads = {
-    windows: { label: "Windows", ext: ".msi", href: "#" },
-    mac:     { label: "macOS",   ext: ".dmg", href: "#" },
-    linux:   { label: "Linux",   ext: ".AppImage", href: "#" },
+    windows: { label: "Windows 10+", ext: "(.msi)", href: "#" },
+    mac:     { label: "macOS 10.14 Mojave+",   ext: "(.dmg)", href: "#" },
+    linux:   { label: "Linux",   ext: "(.AppImage)", href: "#" },
 };
 
 export function InitDownloadButton()
