@@ -27,6 +27,9 @@
   "login.forgot_password": "Zapomniałaś/eś hasła?",
   "login.no_account": "New to Liês?",
   "login.signup_link": "Załóż konto",
+  "page.downloads.table.install_method": "Metoda instalacji",
+  "page.downloads.table.system": "System",
+  "page.downloads.table.version": "Wersja/dystrybucja",
   "page.index.title": "LIÊS | Nasza ostoja w sieci",
   "page.login.title": "Zaloguj się | LIÊS",
   "page.signup.title": "Załóż konto | LIÊS"

@@ -1,4 +1,12 @@
 {
+  "features.accessibility.body": "W Liêsie, jak w lesie, odnajdzie się każdy. Bogaty zasób ułatwień dostępu oraz gama języków mniejszości zapewnia możliwość korzystania z platformy osobom starszym, niepełnosprawnym, a także przedstawicielom mniejszości narodowych.",
+  "features.accessibility.title": "Dostępny dla każdego",
+  "features.local.body": "Nigdy więcej szukania tutejszych społeczności w zglobalizowanym morzu. W Liêsie zawsze trafisz na bezpieczne, lokalne serwery zgromadzone wokół tematów, które lubisz.",
+  "features.local.title": "Lokalne społeczności",
+  "features.privacy.body": "Wiadomości wędrują prosto do adresata — bez zbędnych pośredników i bez zaglądania w nie po drodze.",
+  "features.privacy.title": "Bezpieczne wiadomości",
+  "features.speed.body": "Bez reklam, bez śledzenia, bez zbędnego balastu. Liês jest lekki jak liść.",
+  "features.speed.title": "Szybka i wydajna komunikacja",
   "generic.download_now": "Завантажити зараз",
   "generic.lies_version": "0.12.3_a",
   "generic.login_page": "Увійти",
@@ -19,6 +27,9 @@
   "login.forgot_password": "Forgot password?",
   "login.no_account": "New to Liês?",
   "login.signup_link": "Sign up",
+  "page.downloads.table.install_method": "Installation method",
+  "page.downloads.table.system": "System",
+  "page.downloads.table.version": "Version/distro",
   "page.index.title": "LIÊS | Наш прихисток у мережі",
   "page.login.title": "Увійти | LIÊS",
   "page.signup.title": "Sign up | LIÊS"
