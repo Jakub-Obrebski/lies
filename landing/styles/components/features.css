@@ -1,0 +1,24 @@
+#features {
+    border-radius: 16px;
+    border: 1px solid darkgrey;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+    background: whitesmoke;
+    padding: 2pc;
+
+    & .feature-card {
+        border: 1px solid darkgrey;
+        border-radius: 16px;
+        padding: 2pc;
+        width: min-content;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+        margin-bottom: 2pc;
+
+        & h3 {
+            font-family: 'Unbounded', sans-serif;
+        }
+
+        & p {
+            font-family: 'Onest', sans-serif;
+        }
+    }
+}

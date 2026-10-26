@@ -1,14 +1,10 @@
 #hero {
     font-family: 'Unbounded', sans-serif;
     text-align: center;
-    height: 100dvh;
-    background-image: url("../../assets/images/hero-v3.png");
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    flex: 1;
-    min-height: 0;
-    display: flex;
+    min-height: 100dvh;
+    /*flex: 1;*/
+    /*min-height: 0;*/
+    /*display: flex;*/
 }
 
 #hero h1 {
