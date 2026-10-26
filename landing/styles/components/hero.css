@@ -2,9 +2,6 @@
     font-family: 'Unbounded', sans-serif;
     text-align: center;
     min-height: 100dvh;
-    /*flex: 1;*/
-    /*min-height: 0;*/
-    /*display: flex;*/
 }
 
 #hero h1 {
@@ -27,4 +24,5 @@
     align-items: center;
     justify-content: center;
     flex: 1;
+    height: 90%;
 }

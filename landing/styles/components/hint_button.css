@@ -9,14 +9,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    box-shadow: 0px 0px 0px 4px var(--accent-6);
     cursor: pointer;
     transition-duration: 0.3s;
     overflow: hidden;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    position: absolute;
+    bottom: 2rem;
+    right: 50%;
     z-index: 1000;
+    transform: translateX(-50%);
+    rotate: 180deg;
 }
 
 .svgIcon {
@@ -26,32 +28,4 @@
 
 .svgIcon path {
     fill: white;
-}
-
-#hint:hover {
-    width: 140px;
-    border-radius: 50px;
-    transition-duration: 0.3s;
-    background-color: rgb(181, 160, 255);
-    align-items: center;
-}
-
-#hint:hover .svgIcon {
-    transition-duration: 0.3s;
-    transform: translateY(-200%);
-}
-
-#hint::before {
-    position: absolute;
-    bottom: -20px;
-    content: "Back to Top";
-    color: white;
-    font-size: 0px;
-}
-
-#hint:hover::before {
-    font-size: 13px;
-    opacity: 1;
-    bottom: unset;
-    transition-duration: 0.3s;
 }
