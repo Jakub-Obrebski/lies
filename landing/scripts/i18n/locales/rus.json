@@ -26,11 +26,11 @@
   "login.field.username": "Username",
   "login.forgot_password": "Forgot password?",
   "login.no_account": "New to Liês?",
-  "login.signup_link": "Sign up",
+  "login.signup_link": "Создать аккаунт",
   "page.downloads.table.install_method": "Installation method",
   "page.downloads.table.system": "System",
   "page.downloads.table.version": "Version/distro",
   "page.index.title": "LIÊS | Наш оплот в сети",
   "page.login.title": "Войти | LIÊS",
-  "page.signup.title": "Sign up | LIÊS"
+  "page.signup.title": "Создать аккаунт | LIÊS"
 }
