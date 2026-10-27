@@ -34,5 +34,12 @@
   "page.index.title": "LIĖS | Mūsų internetinė tvirtovė",
   "page.login.title": "Prisijungti | LIĖS",
   "page.signup.title": "Registruotis | LIĖS",
-  "generic.submit": "OK"
+  "generic.submit": "OK",
+  "page.about.title": " | LIÊS",
+  "page.blog.title": " | LIÊS",
+  "page.contact.title": " | LIÊS",
+  "page.docs.title": " | LIÊS",
+  "page.downloads.title": " | LIÊS",
+  "page.features.title": " | LIÊS",
+  "page.privacy.title": " | LIÊS"
 }

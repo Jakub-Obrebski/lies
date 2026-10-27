@@ -10,6 +10,7 @@
   "generic.download_now": "Download now",
   "generic.lies_version": "0.12.3_a",
   "generic.login_page": "Log in",
+  "generic.submit": "Done",
   "header.link.about": "About",
   "header.link.blog": "Blog",
   "header.link.docs": "Docs",
@@ -28,11 +29,17 @@
   "login.no_account": "New to Liês?",
   "login.signup": "Sign up",
   "login.yes_account": "Already have an account?",
+  "page.about.title": "About | LIÊS",
+  "page.blog.title": "Blog | LIÊS",
+  "page.contact.title": "Contact | LIÊS",
+  "page.docs.title": "Docs | LIÊS",
   "page.downloads.table.install_method": "Installation method",
   "page.downloads.table.system": "System",
   "page.downloads.table.version": "Version/distro",
+  "page.downloads.title": "Downloads | LIÊS",
+  "page.features.title": "Features | LIÊS",
   "page.index.title": "LIÊS | Our place on the Web",
   "page.login.title": "Log in | LIÊS",
-  "page.signup.title": "Sign up | LIÊS",
-  "generic.submit": "Done"
+  "page.privacy.title": "Privacy | LIÊS",
+  "page.signup.title": "Sign up | LIÊS"
 }

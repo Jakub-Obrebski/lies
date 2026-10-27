@@ -34,5 +34,12 @@
   "page.index.title": "LIÊS | Наш оплот в сети",
   "page.login.title": "Войти | LIÊS",
   "page.signup.title": "Создать аккаунт | LIÊS",
-  "generic.submit": "Продолжить"
+  "generic.submit": "Продолжить",
+  "page.about.title": " | LIÊS",
+  "page.blog.title": " | LIÊS",
+  "page.contact.title": " | LIÊS",
+  "page.docs.title": " | LIÊS",
+  "page.downloads.title": " | LIÊS",
+  "page.features.title": " | LIÊS",
+  "page.privacy.title": " | LIÊS"
 }

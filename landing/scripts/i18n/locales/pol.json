@@ -34,5 +34,12 @@
   "page.index.title": "LIÊS | Nasza ostoja w sieci",
   "page.login.title": "Zaloguj się | LIÊS",
   "page.signup.title": "Załóż konto | LIÊS",
-  "generic.submit": "Dalej"
+  "generic.submit": "Dalej",
+  "page.about.title": " | LIÊS",
+  "page.blog.title": " | LIÊS",
+  "page.contact.title": " | LIÊS",
+  "page.docs.title": " | LIÊS",
+  "page.downloads.title": " | LIÊS",
+  "page.features.title": " | LIÊS",
+  "page.privacy.title": " | LIÊS"
 }

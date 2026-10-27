@@ -34,5 +34,12 @@
   "page.index.title": "LIÊS | Наш прихисток у мережі",
   "page.login.title": "Увійти | LIÊS",
   "page.signup.title": "Зареєструватися | LIÊS",
-  "generic.submit": "Продовжити"
+  "generic.submit": "Продовжити",
+  "page.about.title": " | LIÊS",
+  "page.blog.title": " | LIÊS",
+  "page.contact.title": " | LIÊS",
+  "page.docs.title": " | LIÊS",
+  "page.downloads.title": " | LIÊS",
+  "page.features.title": " | LIÊS",
+  "page.privacy.title": " | LIÊS"
 }
