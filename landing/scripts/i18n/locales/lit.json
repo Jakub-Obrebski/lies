@@ -20,17 +20,19 @@
   "hero.app_name": "LIĖS",
   "hero.download.more": "Daugiau atsisiuntimo parinkčių....",
   "hero.slogan": "Mūsų internetinė tvirtovė",
-  "login.button.submit": "Prisijungti",
   "login.field.email": "El. paštas",
   "login.field.password": "Slaptažodis",
   "login.field.username": "Username",
   "login.forgot_password": "Pamiršote slaptažodį?",
+  "login.login": "Prisijungti",
   "login.no_account": "Dar neturite paskyros?",
-  "login.signup_link": "Registruotis",
+  "login.signup": "Registruotis",
+  "login.yes_account": "",
   "page.downloads.table.install_method": "Diegimo būdas",
   "page.downloads.table.system": "Sistema",
   "page.downloads.table.version": "Versija/distribucija",
   "page.index.title": "LIĖS | Mūsų internetinė tvirtovė",
   "page.login.title": "Prisijungti | LIĖS",
-  "page.signup.title": "Registruotis | LIĖS"
+  "page.signup.title": "Registruotis | LIĖS",
+  "generic.submit": "OK"
 }

@@ -20,17 +20,19 @@
   "hero.app_name": "LIÊS",
   "hero.download.more": "Bôlš varyjantuv instaláciji",
   "hero.slogan": "Naša opora v siêti",
-  "login.button.submit": "Zalogovátisie",
   "login.field.email": "E-mail",
   "login.field.password": "Paról",
   "login.field.username": "Nazva korystálnika",
   "login.forgot_password": "Forgot password?",
+  "login.login": "Zalogovátisie",
   "login.no_account": "New to Liês?",
-  "login.signup_link": "Sign up",
+  "login.signup": "Sign up",
+  "login.yes_account": "",
   "page.downloads.table.install_method": "Installation method",
   "page.downloads.table.system": "System",
   "page.downloads.table.version": "Version/distro",
   "page.index.title": "LIÊS | Naša opora v siêti",
   "page.login.title": "Zalogovátisie | LIÊS",
-  "page.signup.title": "Sign up | LIÊS"
+  "page.signup.title": "Sign up | LIÊS",
+  "generic.submit": "OK"
 }

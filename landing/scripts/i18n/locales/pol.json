@@ -20,17 +20,19 @@
   "hero.app_name": "LIÊS",
   "hero.download.more": "Więcej opcji pobierania....",
   "hero.slogan": "Nasza ostoja w sieci",
-  "login.button.submit": "Zaloguj się",
   "login.field.email": "Adres e-mail",
   "login.field.password": "Hasło",
   "login.field.username": "Nazwa użytkownika",
   "login.forgot_password": "Zapomniałaś/eś hasła?",
-  "login.no_account": "New to Liês?",
-  "login.signup_link": "Załóż konto",
+  "login.login": "Zaloguj się",
+  "login.no_account": "Nie masz jeszcze konta?",
+  "login.signup": "Załóż konto",
+  "login.yes_account": "Masz już konto?",
   "page.downloads.table.install_method": "Metoda instalacji",
   "page.downloads.table.system": "System",
   "page.downloads.table.version": "Wersja/dystrybucja",
   "page.index.title": "LIÊS | Nasza ostoja w sieci",
   "page.login.title": "Zaloguj się | LIÊS",
-  "page.signup.title": "Załóż konto | LIÊS"
+  "page.signup.title": "Załóż konto | LIÊS",
+  "generic.submit": "Dalej"
 }

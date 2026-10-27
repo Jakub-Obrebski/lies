@@ -20,17 +20,19 @@
   "hero.app_name": "LIÊS",
   "hero.download.more": "Больш варыянтаў спампоўкі....",
   "hero.slogan": "Наша апора ў сеціве",
-  "login.button.submit": "Увайсьці",
   "login.field.email": "Адрас эл. пошты",
   "login.field.password": "Пароль",
   "login.field.username": "Username",
   "login.forgot_password": "Забыліся пароль?",
+  "login.login": "Увайсьці",
   "login.no_account": "New to Liês?",
-  "login.signup_link": "Зарэгістравацца",
+  "login.signup": "Зарэгістравацца",
+  "login.yes_account": "",
   "page.downloads.table.install_method": "Спосаб усталёўкі",
   "page.downloads.table.system": "Сістэма",
   "page.downloads.table.version": "Версія/распаўсюджванне",
   "page.index.title": "LIÊS | Наша апора ў сеціве",
   "page.login.title": "Увайсьці | LIÊS",
-  "page.signup.title": "Зарэгістравацца | LIÊS"
+  "page.signup.title": "Зарэгістравацца | LIÊS",
+  "generic.submit": "OK"
 }
