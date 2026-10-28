@@ -6,28 +6,28 @@
 }
 
 @font-face {
-    font-family: 'Onest';
+    font-family: 'Onest', sans-serif;
     src: url("../assets/fonts/Onest-VariableFont_wght.ttf") format('truetype');
     font-weight: 100 900;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     src: url("../assets/fonts/Rubik-VariableFont_wght.ttf") format('truetype');
     font-weight: 300 900;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     src: url("../assets/fonts/Rubik-Italic-VariableFont_wght.ttf") format('truetype');
     font-weight: 300 900;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Unbounded';
+    font-family: 'Unbounded', sans-serif;
     src: url("../assets/fonts/Unbounded-VariableFont_wght.ttf") format('truetype');
     font-weight: 200 900;
     font-style: normal;
@@ -41,4 +41,9 @@
     line-height: 1;
     user-select: none;
     pointer-events: none;
+}
+
+.logo-font {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 900;
 }
