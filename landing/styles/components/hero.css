@@ -1,7 +1,7 @@
 #hero {
     font-family: 'Unbounded', sans-serif;
     text-align: center;
-    min-height: 100dvh;
+    flex: 1;
 }
 
 #hero h1 {
