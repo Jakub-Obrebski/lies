@@ -6,13 +6,14 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title data-i18n="page.contact.title">Pomošč | LIÊS</title>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script> <!-- that classic cloudflare checkbox for verification -->
 
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
         <header>
             <div id="header-l">
-                <a href="index.html" data-i18n="hero.app_name">LIÊS</a>
+                <a href="index.html" data-i18n="generic.app_name">LIÊS</a>
             </div>
             <nav>
                 <nav id="nav-l">
@@ -35,6 +36,30 @@
                 </div>
             </nav>
         </header>
+        <div class="content-card">
+            <h3 class="logo-font" data-i18n="page.contact.header">Contact</h3>
+            <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="login-field">
+                    <label for="name" data-i18n="page.contact.label.name">name</label>
+                    <input type="text" name="name" id="name" autocomplete="name" required>
+                </div>
+                <div class="login-field">
+                    <label for="email" data-i18n="page.contact.label.email">email</label>
+                    <input type="email" name="email" id="email" autocomplete="email" required>
+                </div>
+                <div class="login-field">
+                    <label for="subject" data-i18n="page.contact.label.subject">subject</label>
+                    <input type="text" name="subject" id="subject" required>
+                </div>
+                <div class="login-field">
+                    <label for="message" data-i18n="page.contact.label.message">message</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                </div>
+                <div class="cf-turnstile" data-sitekey="YOUR_SITE_KEY" style="margin-bottom: 1rem;"></div>
+                <button id="contact-submit" type="submit" data-i18n="page.contact.label.send">Send</button>
+            </form>
+            <button id="contact-submit" type="submit" data-i18n="page.contact.label.send">Send</button>
+        </div>
         <script type="module" src="scripts/main.js"></script>
     </body>
 </html>
