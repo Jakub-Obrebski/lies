@@ -10,5 +10,5 @@ InitI18n().then(() => {
 InitDownloadButton();
 
 document.addEventListener('DOMContentLoaded', () => {
-    initContactForm();
+    InitContactForm();
 });
