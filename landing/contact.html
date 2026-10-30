@@ -22,11 +22,11 @@
                     <!-- privacy            --> <a href="privacy.html" data-i18n="header.link.privacy">Pryvatnosť</a>
                     <!-- blog               --> <a href="blog.html" data-i18n="header.link.blog">Blog</a>
                     <!-- documentation page --> <a href="docs.html" data-i18n="header.link.docs">Dokumentacija</a>
-                    <!-- contact support    --> <a href="contact.html" data-i18n="header.link.support">Pomošč</a>
+                    <!-- contact support    --> <a href="contact.html" data-i18n="header.link.contact">Pomošč</a>
                     <!-- about lies         --> <a href="about.html" data-i18n="header.link.about">Pro programu</a>
                 </nav>
                 <div id="nav-r">
-                    <a href="login.html" data-i18n="generic.login_page">Zalogovátisie</a> <!-- sign up / log in -->
+                    <a href="login.html" data-i18n="page.login.login">Zalogovátisie</a> <!-- sign up / log in -->
                     <button id="language-switcher" type="button" aria-label="Language switcher" aria-expanded="false">
                         <span class="material-icons" aria-hidden="true">language</span>
                     </button>
@@ -36,29 +36,29 @@
                 </div>
             </nav>
         </header>
-        <div class="content-card">
-            <h3 class="logo-font" data-i18n="page.contact.header">Contact</h3>
-            <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="content-card" id="contact-form-parent">
+            <h3 class="logo-font" data-i18n="page.contact.header" style="font-weight: 750;">Contact</h3>
+            <form id="contact-form" action="https://formspree.io/f/xljjlozz" method="POST">
                 <div class="login-field">
-                    <label for="name" data-i18n="page.contact.label.name">name</label>
+                    <label for="name" data-i18n="page.contact.field.name">name</label>
                     <input type="text" name="name" id="name" autocomplete="name" required>
                 </div>
                 <div class="login-field">
-                    <label for="email" data-i18n="page.contact.label.email">email</label>
+                    <label for="email" data-i18n="page.contact.field.email">email</label>
                     <input type="email" name="email" id="email" autocomplete="email" required>
                 </div>
                 <div class="login-field">
-                    <label for="subject" data-i18n="page.contact.label.subject">subject</label>
+                    <label for="subject" data-i18n="page.contact.field.subject">subject</label>
                     <input type="text" name="subject" id="subject" required>
                 </div>
                 <div class="login-field">
-                    <label for="message" data-i18n="page.contact.label.message">message</label>
+                    <label for="message" data-i18n="page.contact.field.message">message</label>
                     <textarea name="message" id="message" rows="5" required></textarea>
                 </div>
-                <div class="cf-turnstile" data-sitekey="YOUR_SITE_KEY" style="margin-bottom: 1rem;"></div>
-                <button id="contact-submit" type="submit" data-i18n="page.contact.label.send">Send</button>
+                <div class="cf-turnstile" data-sitekey="0x4AAAAAAFrQSuGunDLrdvyr" style="margin-bottom: 1rem;"></div>
+                <button id="contact-submit" type="submit" data-i18n="page.contact.field.send" class="logo-font" style="font-weight: 750;">Send</button>
             </form>
-            <button id="contact-submit" type="submit" data-i18n="page.contact.label.send">Send</button>
+            <div id="form-status" role="status" aria-live="polite" style="margin-top: 1rem;"></div>
         </div>
         <script type="module" src="scripts/main.js"></script>
     </body>

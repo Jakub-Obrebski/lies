@@ -35,7 +35,6 @@ export function InitContactForm()
             {
                 StatusDiv.textContent = 'Thanks! Your message has been sent.';
                 StatusDiv.style.color = 'green';
-                form.reset();
             }
             else
             {

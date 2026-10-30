@@ -1,0 +1,30 @@
+label {
+    text-align: left;
+    margin-left: 1pc;
+    margin-top: 1pc;
+}
+
+h3 {
+    color: var(--accent-4);
+}
+
+#contact-form-parent {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2pc;
+}
+
+button {
+    padding: 0.5pc 1pc 0.5pc 1pc;
+    border-radius: 20pc;
+    background: var(--accent-4);
+    color: white;
+}
+
+#message {
+    resize: none;
+}
+
+label * {
+    color: var(--accent-6);
+}
